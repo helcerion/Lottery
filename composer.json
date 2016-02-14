@@ -1,0 +1,17 @@
+{
+  "name": "lottery",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Lottery\\": "src/"
+    }
+  },
+  "autload-dev": {
+    "psr-4": {
+      "LotteryTest\\": "test/Unit/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "stable"
+  }
+}
